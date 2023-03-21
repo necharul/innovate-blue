@@ -202,6 +202,7 @@
         font-size: 25px;
         line-height: 30px;
         margin-bottom: 10px;
+        width: auto;
     }
 
     .investment .investment-left p {
@@ -287,16 +288,203 @@
 
 
 /* =======================================================
-                        6.team end
+                        7.investing start
 ========================================================== */
 
     .investing {
         margin-top: 1325px;
+        margin-bottom: 35px;
+    }
+
+    .investing .investing-right .investing-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+
+    .accordion-item {
+        margin-bottom: 7px;
     }
 
 /* =======================================================
-                        6.team end
+                        7.investing end
 ========================================================== */
+
+
+
+
+
+/* =======================================================
+                        8.counter start
+========================================================== */
+
+    .counter {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .counter .counter-shape1 {
+        width: 17%;
+    }
+
+    .counter .counter-shape2 {
+        width: 47%;
+    }
+
+    .counter .counter-left .counter-left-title {
+        font-size: 22px;
+        line-height: 30px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .counter .counter-left .counter-left-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .counter-right-top {
+        margin-top: 30px;
+        margin-bottom: 26px !important;
+    }
+
+    .counter-right-item {
+        text-align: center;
+    }
+
+    .counter .counter-right-top .counter-right-item .counter-right-item-title {
+        margin-bottom: 0px;
+    }
+
+    .counter-right-bottom-item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 28px;
+    }
+
+/* =======================================================
+                        8.counter end
+========================================================== */
+
+
+
+
+
+
+
+/* =======================================================
+                        9.customer start
+========================================================== */
+
+    .customer {
+        padding: 36px 0;
+        background: #FAFAFA;
+    }
+
+    .customer .customer-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 21px;
+    }
+
+    .customer .customer-left {
+        padding: 17px 22px;
+        border-radius: 10px;
+    }
+
+    .customer .customer-left .customer-review {
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 17px;
+    }
+
+    .customer-detaile {
+        width: 100%;
+    }
+
+    .customer .customer-left .customer-info .customer-profile .customer-detaile h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .customer .customer-left .customer-info .customer-profile .customer-detaile p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .customer-rating {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .customer-img {
+        display: flex;
+        justify-content: center;
+    }
+
+/* =======================================================
+                        9.customer end
+========================================================== */
+
+
+
+
+
+
+/* =======================================================
+                        10.blog start
+========================================================== */
+
+    .blog {
+        padding: 36px 0;
+    }
+
+    .blog .title {
+        font-size: 18px;
+    }
+
+    .blog .title-info {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .blog .blog-item p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+
+    .blog .blog-item .blog-author .author-img img {
+        width: 20%;
+    }
+
+    .blog-item {
+        margin-bottom: 53px;
+    }
+
+    .blog-item-3 {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+/* =======================================================
+                        10.blog end
+========================================================== */
+
+
+
 
 }
 
