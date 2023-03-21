@@ -528,7 +528,7 @@ nav .navbar-collapse .btn-free:hover {
 ========================================================== */
 
 .service {
-    padding: 120px;
+    padding: 120px 0;
     background: #FAFAFA;
 }
 
@@ -1065,4 +1065,486 @@ nav .navbar-collapse .btn-free:hover {
 
 /* =======================================================
                         6.team end
+========================================================== */
+
+
+
+
+
+
+
+
+/* =======================================================
+                        7.investing start
+========================================================== */
+
+.investing {
+    margin-top: 333px;
+    margin-bottom: 140px;
+}
+
+.investing .investing-left{
+    position: relative;
+}
+
+.investing .investing-left img{
+    width: 100%;
+}
+
+.investing .investing-left img.investing-left{
+    
+}
+
+.investing .investing-left img.investing-shape{
+    width: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.investing .investing-right .investing-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #30344E;
+    margin-bottom: 45px;
+}
+.accordion-button::after {
+    color: #AFB1C1;
+}
+.accordion {
+    --bs-accordion-btn-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23AFB1C1" class="bi bi-plus" viewBox="0 0 16 16"> <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/> </svg>');
+    --bs-accordion-btn-icon-width: 2rem;
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-btn-icon-transform: rotate(-45deg);
+    --bs-accordion-btn-active-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23ffffff" class="bi bi-plus" viewBox="0 0 16 16"> <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/> </svg>');
+
+    /* system of stroke */
+    /* "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 6.5V17.5M6.5 12h11' stroke='white' stroke-width='2'/%3E%3C/svg%3E" */
+
+
+    --bs-accordion-active-bg: #52C5B6;
+}
+.accordion-body {
+    color: rgb(91, 95, 119);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5F77;
+}
+
+
+.accordion-header {
+    
+    
+}
+.accordion-collapse {
+    border: 1px solid #D6D8E8;
+    border-radius: 0 0 6px 6px;
+    margin-top: 0px;
+}
+
+
+.accordion-item .accordion-button {
+    border-radius: 6px;
+}
+
+.accordion-button {
+    border: 1px solid #D6D8E8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B5F77;
+}
+
+.accordion-item {
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+
+/* =======================================================
+                        7.investing end
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+/* =======================================================
+                        8.Counter start
+========================================================== */
+
+.counter {
+    background: #52C5B6;
+    padding-top: 129px;
+    padding-bottom: 91px;
+    position: relative;
+    z-index: -2;
+}
+
+.counter img {
+    z-index: -1;
+}
+
+.counter .counter-shape1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.counter .counter-shape2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.counter .counter-left .counter-left-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #fff;
+    width: 511px;
+    margin-bottom: 40px;
+}
+
+.counter .counter-left .counter-left-btn{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    color: #fff;
+    background: #FD5F36;
+    padding: 14px 28px;
+    border-radius: 5px;
+}
+
+.counter .counter-right-top .counter-right-item .counter-right-item-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.counter .counter-right-top .counter-right-item .counter-right-item-info{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* =======================================================
+                        8.Counter end
+========================================================== */
+
+
+
+
+
+
+
+
+
+/* =======================================================
+                        9.customer start
+========================================================== */
+
+.customer {
+    padding: 120px;
+    background: #FAFAFA;
+}
+
+.customer .customer-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #30344E;
+    margin-bottom: 60px;
+}
+
+.customer .customer-left {
+    background: #fff;
+    padding: 48px 60px;
+    border-radius: 10px;
+}
+
+.customer .customer-left .customer-review {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #6C6E81;
+    margin-bottom: 54px;
+}
+
+.customer .customer-left .customer-review .customer-info .customer-profile .customer-img img {
+    width: 100%;
+}
+
+.customer .customer-left .customer-info .customer-profile .customer-detaile h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #30344E;
+    margin-bottom: 6px;
+}
+
+.customer .customer-left .customer-info .customer-profile .customer-detaile p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #30344E;
+    margin-bottom: 0;
+}
+
+.customer .customer-left .customer-info .customer-rating .rating i {
+    color: #FFC34C;
+}
+
+.customer .customer-right img {
+    width: 100%;
+}
+
+/* =======================================================
+                        9.customer end
+========================================================== */
+
+
+
+
+
+
+
+
+/* =======================================================
+                        10.blog start
+========================================================== */
+
+.blog{
+    padding: 130px 0;
+}
+
+.blog .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FD5F36;
+    margin-bottom: 8px;
+}
+
+.blog .title-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #30344E;
+    margin-bottom: 60px;
+}
+
+.blog .blog-item > img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blog .blog-item h6{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #3F3C5C;
+    margin-bottom: 8px;
+}
+
+.blog .blog-item p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575470;
+    margin-bottom: 18px;
+}
+
+.blog .blog-item .blog-author .author-img img{
+    width: 100%;
+}
+
+.blog .blog-item .blog-author .author-name h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9C9BA9;
+    margin-bottom: 0;
+}
+
+.blog .blog-item .blog-author .blog-date p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9C9BA9;
+    margin-bottom: 0;
+}
+
+/* =======================================================
+                        10.blog end
+========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================================
+                        11.footer start
+========================================================== */
+
+.footer{
+    background: #30344E;
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+.footer .footer-left img{
+    margin-bottom: 26px;
+}
+.footer .footer-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 24px;
+    width: 263px;
+}
+
+.footer .footer-left .socail-btn {
+    display: flex;
+}
+
+.footer .footer-left .socail-btn i {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.footer .footer-left .socail-btn i:hover {
+    background: #52C5B6;
+    color: #fff;
+}
+
+.footer .footer-right .footer-right-1 ul li.menu-title{
+    margin-bottom: 20px;
+}
+
+.footer .footer-right .footer-right-1 ul li.menu-title a{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #52C5B6;
+}
+
+.footer .footer-right .footer-right-1 ul li{
+    margin-bottom: 12px;
+}
+
+.footer .footer-right .footer-right-1 ul li a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+}
+
+.footer .footer-right .footer-right-1 ul li a:hover {
+    color: #52C5B6;
+}
+
+.footer .footer-right .footer-right-1 h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #52C5B6;
+    margin-bottom: 18px;
+}
+
+.footer .footer-right .footer-right-1 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 32px;
+    width: 285px;
+}
+
+.footer .footer-right .footer-right-1 form .mail-subscribe {
+    position: relative;
+}
+
+.footer .footer-right .footer-right-1 form .mail-subscribe input {
+    width: 100%;
+    padding: 16px 0 12px 18px;
+    border-radius: 8px;
+}
+
+.footer .footer-right .footer-right-1 form .mail-subscribe input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #A1A2A3;
+}
+.footer .footer-right .footer-right-1 form .mail-subscribe button {
+    position: absolute;
+    right: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    width: 36px;
+    height: 36px;
+    background: #FD5F36;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-right .footer-right-1 form .mail-subscribe button i {
+    color: #fff;
+}
+
+.footer .hr-line {
+    height: 1px;
+    background: #D2D2D2;
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+
+.footer .copyright-area p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* =======================================================
+                        11.footer end
 ========================================================== */

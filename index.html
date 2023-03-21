@@ -35,6 +35,8 @@
 
     <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -50,7 +52,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -179,7 +181,7 @@
 
 
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 responsive-display">
 
 
                     <!-- //////// 2.b. banner right part start ////////
@@ -424,138 +426,143 @@
     <section class="team">
         <div class="team-title text-center">
             <img class="team-title-bg1" src="images/team-title-bg1.png" alt="team-title-bg1">
+            <img class="team-title-bg2" src="images/team-title-bg2.png" alt="team-title-bg2">
             <div class="container">
                 <h4 class="title">our team</h4>
                 <h2 class="title-info">Meet with Expert</h2>
             </div>
-            <img class="team-title-bg2" src="images/team-title-bg2.png" alt="team-title-bg2">
         </div>
 
         <div class="team-member-profile">
             <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="team-item">
-                        <img src="images/team-image1.png" alt="team-image1">
-                        <div class="team-member-info">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div class="member-title">
-                                        <h4>Eleanor Pena</h4>
-                                        <p>Senior Engineer</p>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-item">
+                            <img src="images/team-image1.png" alt="team-image1">
+                            <div class="team-member-info">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="member-title">
+                                            <h4>Eleanor Pena</h4>
+                                            <p>Senior Engineer</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="member-contact">
-                                        <ul>
-                                            <li><i class="fa-solid fa-plus"></i>
-                                                <div class="drop">
-                                                    <ul>
-                                                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="team-item">
-                        <img src="images/team-image1.png" alt="team-image1">
-                        <div class="team-member-info">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div class="member-title">
-                                        <h4>Jenny Wilson</h4>
-                                        <p>Project Manager</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="member-contact">
-                                        <ul>
-                                            <li><i class="fa-solid fa-plus"></i>
-                                                <div class="drop">
-                                                    <ul>
-                                                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    <div class="col-4">
+                                        <div class="member-contact">
+                                            <ul>
+                                                <li><i class="fa-solid fa-plus"></i>
+                                                    <div class="drop">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="team-item">
-                        <img src="images/team-image1.png" alt="team-image1">
-                        <div class="team-member-info">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div class="member-title">
-                                        <h4>Jerome Bell</h4>
-                                        <p>Senior Engineer</p>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-item">
+                            <img src="images/team-image1.png" alt="team-image1">
+                            <div class="team-member-info">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="member-title">
+                                            <h4>Jenny Wilson</h4>
+                                            <p>Project Manager</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="member-contact">
-                                        <ul>
-                                            <li><i class="fa-solid fa-plus"></i>
-                                                <div class="drop">
-                                                    <ul>
-                                                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    <div class="col-4">
+                                        <div class="member-contact">
+                                            <ul>
+                                                <li><i class="fa-solid fa-plus"></i>
+                                                    <div class="drop">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="team-item">
-                        <img src="images/team-image1.png" alt="team-image1">
-                        <div class="team-member-info">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div class="member-title">
-                                        <h4>Robert Fox</h4>
-                                        <p>Marketing Expert</p>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-item">
+                            <img src="images/team-image1.png" alt="team-image1">
+                            <div class="team-member-info">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="member-title">
+                                            <h4>Jerome Bell</h4>
+                                            <p>Senior Engineer</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="member-contact">
+                                            <ul>
+                                                <li><i class="fa-solid fa-plus"></i>
+                                                    <div class="drop">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
-                                    <div class="member-contact">
-                                        <ul>
-                                            <li><i class="fa-solid fa-plus"></i>
-                                                <div class="drop">
-                                                    <ul>
-                                                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                                        </li>
-                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-item">
+                            <img src="images/team-image1.png" alt="team-image1">
+                            <div class="team-member-info">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="member-title">
+                                            <h4>Robert Fox</h4>
+                                            <p>Marketing Expert</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="member-contact">
+                                            <ul>
+                                                <li><i class="fa-solid fa-plus"></i>
+                                                    <div class="drop">
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                            </li>
+                                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -564,12 +571,442 @@
                 </div>
             </div>
         </div>
-        </div>
-        
+
     </section>
 
     <!-- =====================================================
                         6.team end
+    ========================================================== -->
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+                        7.investing srart
+    ========================================================== -->
+
+    <section class="investing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="investing-left">
+                        <img class="investing-left" src="images/investing-img.png" alt="investing-img">
+                        <img class="investing-shape" src="images/investing-shape.png" alt="investing-shape">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="investing-right">
+                        <h2 class="investing-title">Startup digital platform for investing</h2>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Securing Digital Payment
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Through our Connected Content™ approach, we unite communications, digital
+                                        experiences, and performance marketing to help more than 1600 global companies.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Investing in Digital Company
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Through our Connected Content™ approach, we unite communications, digital
+                                        experiences, and performance marketing to help more than 1600 global companies.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Building the idea of future
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Through our Connected Content™ approach, we unite communications, digital
+                                        experiences, and performance marketing to help more than 1600 global companies.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Accurate and friendly support
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Through our Connected Content™ approach, we unite communications, digital
+                                        experiences, and performance marketing to help more than 1600 global companies.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================
+                        7.investing end
+    ========================================================== -->
+
+
+
+
+
+
+
+    <!-- =====================================================
+                        8.Counter Start
+    ========================================================== -->
+
+    <section class="counter">
+        <img class="counter-shape1" src="images/counter-shape1.png" alt="counter-shape1">
+        <img class="counter-shape2" src="images/counter-shape2.png" alt="counter-shape2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="counter-left">
+                        <h4 class="counter-left-title">Trusted by the world’s leading companies</h4>
+                        <a class="counter-left-btn" href="#">Free Consultation</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="counter-right-top mb-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="counter-right-item">
+                                    <h3 class="counter-right-item-title">150+</h3>
+                                    <p class="counter-right-item-info">Finished Session</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="counter-right-item">
+                                    <h3 class="counter-right-item-title">100%</h3>
+                                    <p class="counter-right-item-info">Satisfiction Rate</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="counter-right-item">
+                                    <h3 class="counter-right-item-title">350+</h3>
+                                    <p class="counter-right-item-info">Trusted Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counter-right-bottom">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="counter-right-bottom-item">
+                                    <img src="images/counter-img-1.png" alt="counter-img-1">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="counter-right-bottom-item">
+                                    <img src="images/counter-img-2.png" alt="counter-img-2">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="counter-right-bottom-item d-flex justify-content-center">
+                                    <img src="images/counter-img-3.png" alt="counter-img-3">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="counter-right-bottom-item">
+                                    <img src="images/counter-img-4.png" alt="counter-img-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+                        8.Counter end
+    ========================================================== -->
+
+
+
+
+
+
+
+    <!-- =====================================================
+                        9.customer start
+    ========================================================== -->
+
+    <section class="customer">
+        <div class="container">
+            <h2 class="customer-title">What our customers are saying about us</h2>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="customer-left">
+                        <p class="customer-review">“Wow. Amazing company amazing Expert Manager. They know how to get
+                            things done when it comes to online trading. So impressed by the knowledge, and sincerity.
+                            Thank you Mrs victoria for your amazing company.</p>
+                        <div class="customer-info">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="customer-profile">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="customer-img">
+                                                    <img src="images/customer-image.png" alt="customer-image">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-9 d-flex align-items-center">
+                                                <div class="customer-detaile">
+                                                    <h6>Jenny Wilson</h6>
+                                                    <p>Digital Marketer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-flex align-items-end">
+                                    <div class="customer-rating">
+                                        <div class="rating"><i class="fa-sharp fa-solid fa-star"></i> <i
+                                                class="fa-sharp fa-solid fa-star"></i> <i
+                                                class="fa-sharp fa-solid fa-star"></i><i
+                                                class="fa-sharp fa-solid fa-star"></i> <i
+                                                class="fa-sharp fa-solid fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="customer-right">
+                        <img src="images/review-img.png" alt="review-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================
+                        9.customer end
+    ========================================================== -->
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+                        10.blog start
+    ========================================================== -->
+
+    <section class="blog">
+        <div class="container">
+            <h4 class="title text-center">New Blog</h4>
+            <h2 class="title-info text-center">Latest Updates and News</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <img src="images/blog-img.png" alt="blog-img">
+                        <h6 class="blog-title">Simple Juice Recipes to boost your immune system</h6>
+                        <p class="blog-content">Objectively restore stand-alone markets rather than enterprise-wide
+                            products. </p>
+                        <div class="blog-author">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="author-img">
+                                        <img src="images/author-image.png" alt="author-image">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 d-flex align-items-center">
+                                    <div class="author-name">
+                                        <h5>Esther Howard</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 d-flex align-items-center">
+                                    <div class="blog-date">
+                                        <p><i class="fa-regular fa-calendar-check"></i> 8 Sep, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <img src="images/blog-img.png" alt="blog-img">
+                        <h6 class="blog-title">4 steps for measuring the impact of product</h6>
+                        <p class="blog-content">Clearly, the rise of time spent on social media creates a strain on all
+                            of its users, and these effects</p>
+                        <div class="blog-author">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="author-img">
+                                        <img src="images/author-image.png" alt="author-image">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 d-flex align-items-center">
+                                    <div class="author-name">
+                                        <h5>Leslie Alexander</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 d-flex align-items-center">
+                                    <div class="blog-date">
+                                        <p><i class="fa-regular fa-calendar-check"></i> 24 May, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <img src="images/blog-img.png" alt="blog-img">
+                        <h6 class="blog-title">The modern product manager’s tech stack</h6>
+                        <p class="blog-content">The essential tools for the modern product manager for capturing
+                            feedback, prioritizing, ideating </p>
+                        <div class="blog-author">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="author-img">
+                                        <img src="images/author-image.png" alt="author-image">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 d-flex align-items-center">
+                                    <div class="author-name">
+                                        <h5>Catherine Mark</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 d-flex align-items-center">
+                                    <div class="blog-date">
+                                        <p><i class="fa-regular fa-calendar-check"></i> 30 Nov, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================
+                        10.blog end
+    ========================================================== -->
+
+
+
+
+
+
+
+    <!-- =====================================================
+                        11.footer start
+    ========================================================== -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-left">
+                        <img src="images/logo.png" alt="footer logo">
+                        <p>Build a modern and creative website with Innovate.</p>
+                        <div class="socail-btn">
+                            <i class="fa-brands fa-google"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="footer-right">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="footer-right-1">
+                                    <ul>
+                                        <li class="menu-title"><a href="#">Product</a></li>
+                                        <li><a href="#">Landingpages</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Benefits</a></li>
+                                        <li><a href="#">Features</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="footer-right-1">
+                                    <ul>
+                                        <li class="menu-title"><a href="#">Company</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Partners</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="footer-right-1">
+                                    <ul>
+                                        <li class="menu-title"><a href="#">Resources</a></li>
+                                        <li><a href="#">Guides and resources</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Tools</a></li>
+                                        <li><a href="#">Support</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="footer-right-1">
+                                    <h6>Get Latest Updates</h6>
+                                    <p>Subscribe to our newsletter and get many interesting things every week</p>
+                                    <form>
+                                        <div class="mail-subscribe">
+                                            <input type="search" placeholder="Your Email Address"><button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-line"></div>
+
+            <!-- ======= copright ======== -->
+            <div class="copyright-area">
+                <p>© 2020 Innovate - All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =====================================================
+                        11.footer end
     ========================================================== -->
 
 
